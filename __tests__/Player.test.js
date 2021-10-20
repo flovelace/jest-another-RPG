@@ -33,7 +33,7 @@ test('gets inventory from player or returns false', () => {
     
 });
 
-test("gets player's helath value", () => {
+test("gets player's health value", () => {
     const player = new Player('Chris Lightfellow');
     expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()));
 });
